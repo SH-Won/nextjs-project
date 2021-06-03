@@ -1,0 +1,28 @@
+.wrap{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+}
+.imgs_container{
+    width:90%;
+    display:flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+}
+.img_container{
+    width:27%;
+    padding-top:30%;
+    position:relative;
+    margin:1rem;
+}
+.img_container > img{
+    
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100%;
+}
+.information{
+    display:flex;
+    flex-direction: column;
+}
